@@ -8,13 +8,9 @@ If you're going to use a static XML file (like one hosted on GitHub), it must ha
     </Dial>
 </Response>
 
+Render.com app deployed:
+- https://dashboard.render.com/web/srv-d0h174ruibrs7383k4t0/deploys/dep-d0h175buibrs7383k5jg
 
-
-Go to Twilio Console → TwiML Apps
-
-Create a new TwiML App and point it to a dynamic endpoint (e.g., your own server that responds with generated TwiML using the To parameter)
-
-In your SIP URI, include the To param like this:
 
 
 sip:+14155552671@mysipdomain.sip.twilio.com?To=%2B14155552671
