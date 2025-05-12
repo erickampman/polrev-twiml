@@ -1,0 +1,20 @@
+Wut ChatGPT tells me:
+
+If you're going to use a static XML file (like one hosted on GitHub), it must have a fixed number or you must dynamically generate the XML.
+
+<Response>
+    <Dial callerId="+18885974354">
+        <Number>+14155552671</Number>
+    </Dial>
+</Response>
+
+
+
+Go to Twilio Console → TwiML Apps
+
+Create a new TwiML App and point it to a dynamic endpoint (e.g., your own server that responds with generated TwiML using the To parameter)
+
+In your SIP URI, include the To param like this:
+
+
+sip:+14155552671@mysipdomain.sip.twilio.com?To=%2B14155552671
