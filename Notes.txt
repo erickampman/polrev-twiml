@@ -9,8 +9,8 @@ If you're going to use a static XML file (like one hosted on GitHub), it must ha
 </Response>
 
 Render.com app deployed:
+- https://github.com/erickampman/twilio-twiml-server
 - https://dashboard.render.com/web/srv-d0h174ruibrs7383k4t0/deploys/dep-d0h175buibrs7383k5jg
-
-
+- https://twilio-twiml-server.onrender.com
 
 sip:+14155552671@mysipdomain.sip.twilio.com?To=%2B14155552671
